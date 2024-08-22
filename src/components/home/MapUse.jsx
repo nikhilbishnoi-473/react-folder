@@ -1,5 +1,5 @@
 import React from 'react'
-import { MAP_USE, TEXT_MAP } from '../common/Helper'
+import { MAP_USE, ROWUSE, TEXT_MAP } from '../common/Helper'
 
 const MapUse = () => {
     return (
@@ -12,11 +12,19 @@ const MapUse = () => {
                     <p>{obj.para}</p>
                 </div>
             ))}
-            {TEXT_MAP.map((obj, index) => ( 
+            {TEXT_MAP.map((obj, index) => (
                 <div key={index}>
-                    <h1  className='text-black'>{obj.heading}</h1>
+                    <h1 className='text-black'>{obj.heading}</h1>
                 </div>
             ))}
+                <div className=' row'>
+            {ROWUSE.map((obj, index) => (
+                    <div className=' col-6 d-flex justify-content-center' key={index}>
+                        <h1>{obj.heading}</h1>
+                        <img src={obj.img} alt="image" />
+                </div>
+            ))}
+            </div>
 
         </div>
     )

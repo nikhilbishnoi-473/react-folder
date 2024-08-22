@@ -32,3 +32,14 @@ export const TEXT_MAP = [
         heading: "abcbaaiurfuresu",
     },
 ]
+export const ROWUSE = [
+    {
+        img: imgOne,
+        heading: "aboutUs"
+    },
+    {
+        heading: "world",
+        img: imgOne
+    }
+    
+]
