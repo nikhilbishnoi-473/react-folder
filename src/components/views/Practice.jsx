@@ -1,6 +1,6 @@
-import React, { useState } from 'react'; // Keep this import
-import NavBar from '../usestate/NavBar';
-import UseStarteOne from '../usestate/UseStarteOne';
+import React, { useState } from 'react';  
+import NavBar from '../practice/NavBar';
+import UseStarteOne from '../practice/UseStarteOne';
 
 const MyComponent = () => {  
     const [mode, setDarkMode] = useState("white");

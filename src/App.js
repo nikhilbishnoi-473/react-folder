@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/views/Home';
 import Work from './components/views/Work';
-import UseState from './components/views/UseState';
+import Practice from './components/views/Practice';
  
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='' element={<Home />} />
         <Route path='/Work' element={<Work />} />
-        <Route path='/UseState' element={<UseState/>} />
+        <Route path='/Practice' element={<Practice/>} />
       </Routes>
     </BrowserRouter>
   );
